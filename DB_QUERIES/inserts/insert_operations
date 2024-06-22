@@ -1,0 +1,29 @@
+
+/*ROLES*/
+/*INSERT INTO roles(id, "name") VALUES(gen_random_uuid(), 'OWNER');
+INSERT INTO roles(id, "name") VALUES(gen_random_uuid(), 'CONSULTANT');
+INSERT INTO roles(id, "name") VALUES(gen_random_uuid(), 'USER');
+SELECT * FROM roles;
+*/
+
+
+/*HOROSCOPES*/
+
+/*
+INSERT INTO horoscopes (id, name, description, image, created_at, updated_at)
+VALUES 
+  (gen_random_uuid(), 'Aries', 'The Ram', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Taurus', 'The Bull', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Gemini', 'The Twins', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Cancer', 'The Crab', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Leo', 'The Lion', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Virgo', 'The Virgin', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Libra', 'The Scales', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Scorpio', 'The Scorpion', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Sagittarius', 'The Archer', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Capricorn', 'The Sea-Goat', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Aquarius', 'The Water-Bearer', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+  (gen_random_uuid(), 'Pisces', 'The Fish', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+  */
+  
+

@@ -1,0 +1,13 @@
+fastapi
+PyJwt
+python-dotenv
+pydantic
+psycopg2-binary
+aiosmtplib
+asyncio
+colorama
+bcrypt
+uvicorn
+schedule
+pyodbc
+celery
